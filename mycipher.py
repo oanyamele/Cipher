@@ -16,7 +16,7 @@ def main():
     try:
         shift_amount = int(sys.argv[1]) % 26
     except ValueError:
-        print("The shift amount is invalid.")
+        print("The shift amount entered is invalid.")
         return
 
     message = sys.stdin.readline().strip()
